@@ -19,5 +19,7 @@ $(function() {
         event.preventDefault();
     });
     
+    new WOW().init();
+    
     $(window).stellar();
 });
