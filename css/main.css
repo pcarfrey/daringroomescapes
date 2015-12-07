@@ -2,6 +2,11 @@ body {
     font-family: 'Mandali', sans-serif;
     /*    padding-top: 80px;*/
 }
+
+body.body-padding-top {
+    padding-top: 110px;
+}
+
 .navbar {
     margin-bottom: 0px;
     padding: 30px 15px;
@@ -158,6 +163,10 @@ body {
     border-radius: 10px; /* standards-compliant: (IE) */ 
     -moz-border-radius: 10px; 
 }
+.title-text-sub img {
+    width: 100%;
+    height: auto;
+}
 .about {
     text-align: left;
 }
@@ -215,4 +224,26 @@ footer {
 .bottom-img {
     background-image: url(../img/zombie_keith_sm.jpg);
 }
+}
+
+.trapped-description {
+    font-weight: bold;
+}
+
+.alert {
+    color: #ff301a;
+/*    background-color: #333;*/
+/*    border-color: #d8d8d8;*/
+    border-radius: 0px;
+}
+
+.team-building {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.event-suggestions {
+    margin-top: 15px;
+    padding-top: 20px;
 }
