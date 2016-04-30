@@ -1,249 +1,89 @@
-body {
-    font-family: 'Mandali', sans-serif;
-    /*    padding-top: 80px;*/
-}
+/* Customize container */
 
-body.body-padding-top {
-    padding-top: 110px;
-}
 
-.navbar {
-    margin-bottom: 0px;
-    padding: 30px 15px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-@media (max-width: 400px) {
-    .navbar-header {
-        position: relative;
-    }
-    .navbar img {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        width: 70%;
-    }
-}
-.navbar-brand {
-    padding: 0px 15px;
-}
-.nav-banner {
-    height: 50px;
-}
-.cbp-af-header-shrink {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    opacity: 0.9;
-}
-.fill-screen {
-    background-size: cover;
-    background-position: center;
-}
-.fill-screen-sub {
-    background-size: contain;
-    background-position: center;
-}
-.fixed-attachment {
-    background-attachment: fixed;
-}
-@media (max-width: 1024px) {
-    .fixed-attachment {
-        background-attachment: scroll;
-    }
-}
-.title-row {
-    position: relative;
-    min-height: 300px;
-}
-.title-image {
-    position: absolute;
-    padding: 20px;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-}
-@media (min-width: 1081px) {
-    .title-image{
-        width: 50%;
-    }
-}
-@media (max-width: 1080px) {
-    .title-image{
-        width: 70%;
-    }
-}
-@media (max-width: 767px) {
-    .title-image{
-        width: 85%;
-    }
-}
-@media (max-width: 320px) {
-    .title-image{
-        width: 100%;
-    }
-}
-
-.title-text {
-    position: absolute;
-    padding: 20px;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    text-shadow: 1px 1px 5px #000;
-}
-.large-image-text {
-    position: relative;
-    padding: 20px;
-    top: 50%;
 /*
-    left: 50%;
-    margin-right: -50%;
-*/
-    transform: translate(0%, -50%);
-    -webkit-transform: translate(0%, -50%);
-    text-align: center;
-    color: #ff301a;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #888; /*for no rgba support*/
-    background-color: rgba(0%, 0%, 0%, 0.33);
-    padding: 10px 10px;
-/*
-    border-radius: 10px;  standards-compliant: (IE)  
-    -moz-border-radius: 10px; 
-*/
-}
-.large-image-text h2{
-    margin-top: 10px;
-}
+
 @media (min-width: 768px) {
-    .large-image-text h2{
-        font-size: 40px;
+    .container {
+        max-width: 730px;
     }
 }
-.down-button {
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    text-align: center;
-}
-.down-button i {
-    color: #ff301a;
-}
-.btn-default:hover {
-    border-color: #ff301a;
-}
-.text-banner {
-    text-align: center;
-    margin: 40px 20px;
-}
-.text-banner h1 {
-    font-size: 44px;
-}
-.text-banner p {
-    font-size: 16px;
-}
-.btn {
-    margin-bottom: 10px;
-}
-.activity-section {
-    margin: 50px;
-    text-align: center;
-}
+*/
 
-.title-text-sub {
-    background-color: #d8d8d8;
-    padding: 10px 20px;
-    border-radius: 10px; /* standards-compliant: (IE) */ 
-    -moz-border-radius: 10px; 
-}
-.title-text-sub img {
-    width: 100%;
-    height: auto;
-}
-.about {
-    text-align: left;
-}
-.faq {
-    text-align: right; 
-}
-@media (max-width: 767px) {
-    .about,
-    .faq {
-        text-align: center;
+@media (min-width: 768px) {
+    .container {
+        max-width: 960px;
     }
 }
-.activity-element img {
-    width: 150px;
-    height: 150px;
-}
-.contact-us {
-    text-align: center;
-}
 
-.address {
-    background-color: #d8d8d8;
-    padding: 10px 20px;
-    border-radius: 10px;
-    -moz-border-radius: 10px; 
-}
-
-footer {
-    background-color: #333;
-    color: #686868;
-    padding-top: 10px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.brand-text, .brand-text:hover {
+a {
+    cursor: pointer;
     color: #ff301a;
 }
 
-
-.top-img {
-    background-image: url(../img/zombie_hand_lg.jpg);
-}
-.bottom-img {
-    background-image: url(../img/zombie_keith_lg.jpg);
-}
-.middle-img {
-    background-image: url(../img/room.jpg);
+a:hover {
+/*    font-weight: bold;*/
+    text-decoration: none;
+    color: #ff301a;
 }
 
-@media (max-width: 767px) {
-.top-img {
-    background-image: url(../img/zombie_hand_sm.jpg);
-}
-.bottom-img {
-    background-image: url(../img/zombie_keith_sm.jpg);
-}
+.container-header {
+    background-color: #000;
+    margin-bottom: 0;
+    padding: 15px;
 }
 
-.trapped-description {
+.header {
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+/*    border-bottom: 1px solid #ff301a;*/
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.nav-logo {
+    height: 55px;
+}
+
+.modal-content a {
+    color: #ff301a;
+}
+
+.daring_escapes_banner {
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 1px solid #ff301a;
+    border-bottom: 1px solid #ff301a;
+}
+
+.jumbotron-first {
+    margin-top: 20px;
+}
+
+.brand-text {
+    color: #ff301a;
+}
+
+.team-building-activity {
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.alert {
-    color: #ff301a;
-/*    background-color: #333;*/
-/*    border-color: #d8d8d8;*/
-    border-radius: 0px;
+.city img {
+    margin: 0 auto;
 }
 
-.team-building {
-    width: 100%;
-    height: auto;
-    padding-bottom: 15px;
+a img:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
-.event-suggestions {
-    margin-top: 15px;
-    padding-top: 20px;
+.img-team {
+    margin: 0 auto 15px auto;
 }
