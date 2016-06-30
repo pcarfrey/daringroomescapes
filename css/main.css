@@ -22,9 +22,9 @@ a {
 }
 
 a:hover {
-/*    font-weight: bold;*/
+    /*    font-weight: bold;*/
     text-decoration: none;
-    color: #ff301a;
+    color: #ff301a !important;
 }
 
 .container-header {
@@ -38,7 +38,7 @@ a:hover {
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
-/*    border-bottom: 1px solid #ff301a;*/
+    /*    border-bottom: 1px solid #ff301a;*/
 }
 
 .header h3 {
@@ -80,10 +80,21 @@ a:hover {
 }
 
 a img:hover {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 .img-team {
     margin: 0 auto 15px auto;
+}
+
+.book-now {
+    color: red !important;
+    font-size: 400% !important;
+    font-weight: 500;
+}
+
+footer h1 {
+    font-size: 100% !important;
+    margin-top: 0;
 }
